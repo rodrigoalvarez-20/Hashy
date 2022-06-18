@@ -36,7 +36,6 @@ def validate_key():
     """
     return os.path.isfile(f"{os.getcwd()}/keys/private.pem") and os.path.isfile(f"{os.getcwd()}/keys/public.pem")
 
-
 def get_keys():
     """
     Función que permite obtener los datos de ambas llaves.
